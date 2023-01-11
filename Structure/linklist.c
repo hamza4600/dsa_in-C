@@ -19,7 +19,7 @@ node *createNode(int data)
     node *newNode = (node *)malloc(sizeof(node));
     newNode->data = data;
     newNode->next = NULL;
-    return newNode;
+    return newNode; 
 }
 
 // insert a node at the end of the list
