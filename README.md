@@ -30,3 +30,33 @@ A linked list is a data structure that stores data in a sequential manner. The l
 * Search
 * Is Empty
 
+## Binary Search Tree
+A binary search tree is a data structure that stores data in a sorted manner. The binary search tree is implemented using a linked list. The following operations are supported:
+* Insert
+* Delete
+* Search
+* Is Empty
+
+## Max Heap
+A max heap is a data structure that stores data in a sorted manner. The max heap is implemented using an nodes. The following operations are supported:
+* Insert
+* Delete
+* Search
+* Find Min
+* Root Node 
+* Print In Order  (Left, Root, Right) 
+* Print Pre Order  (Root, Left, Right)
+* Print Post Order  (Left, Right, Root)
+
+## Search and Sorting Algorithms
+The following search and sorting algorithms are implemented:
+* Linear Search
+* Binary Search
+* Bubble Sort
+* Insertion Sort
+* Selection Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+
+

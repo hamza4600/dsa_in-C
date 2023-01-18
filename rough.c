@@ -60,10 +60,12 @@ void test_t(int n)
         }
         for (int j = 0; j < n; j++)
         {
-            if (j&1)
+            if (j & 1)
             {
                 printf(" # ");
-            } else {
+            }
+            else
+            {
                 printf("  ");
             }
         }
@@ -72,18 +74,36 @@ void test_t(int n)
 };
 
 // tabel
+#define BLU "\x1B[34m"
 void table(int x)
 {
     printf(" Table of %d \n", x);
     for (int k = 0; k <= x; k++)
     {
-        printf(" %d * %d =  %d \n", x, k, k * x);
+        printf("%s %d * %d =  %d \n", BLU, x, k, k * x);
     }
+}
+#define BRED "\x1B[91m"
+void adress()
+{
+    int *p, *q;
+    p = (int *)malloc(sizeof(int));
+    *p = 156;
+    printf("%s Value :: %d \n", BRED, *p);
+    printf("Adress :: %p \n", p);
+    *p = 595950;
+    printf("Update Value At SAme DRESS:: %d \n", *p);
+    int ka = 4512;
+    printf("Value :: %d \n", ka);
+    printf("Adress :: %p \n", &ka);
+    free(p);
 }
 int main()
 {
     // test();
     test_t(10);
     table(10);
+    printf("Adress \n");
+    adress();
     return 0;
 }
