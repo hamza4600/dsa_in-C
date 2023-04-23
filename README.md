@@ -59,4 +59,20 @@ The following search and sorting algorithms are implemented:
 * Quick Sort
 * Heap Sort
 
+## Hash Table
+A hash table is a data structure that stores data in a hashed manner. The hash table is implemented using an array. The following operations are supported:
+* Insert
+* Delete
+* Search
+* Delete All
+
+## Graph
+
+A graph is a data structure that stores data in a node and edge manner. The graph is implemented using a linked list. The following operations are supported:
+* Insert Node
+* Insert Edge
+* Delete Node
+* Delete Edge
+* Search Node
+
 
